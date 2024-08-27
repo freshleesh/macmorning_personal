@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/leesh/ros2_ws/src/my_package/build/velodyne_laserscan/libvelodyne_laserscan.so" "TARGETS" "velodyne_laserscan" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

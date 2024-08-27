@@ -1,0 +1,229 @@
+[0.124s] Invoking command in '/home/leesh/ros2_ws/src/my_package/build/my_package': CMAKE_PREFIX_PATH=/home/leesh/ros2_ws/install/velodyne:/home/leesh/ros2_ws/install/velodyne_pointcloud:/home/leesh/ros2_ws/install/velodyne_driver:/home/leesh/ros2_ws/install/velodyne_msgs:/home/leesh/ros2_ws/install/velodyne_laserscan:/home/leesh/ros2_ws/install/scout_base:/opt/ros/foxy:/home/leesh/ros2_ws/install/ugv_sdk:/home/leesh/ros2_ws/install/scout_msgs:/home/leesh/ros2_ws/install/scout_description:/home/leesh/ros2_ws/install/my_package /usr/bin/cmake /home/leesh/ros2_ws/src/my_package -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/leesh/ros2_ws/src/my_package/install/my_package
+[0.391s] -- The C compiler identification is GNU 9.4.0
+[0.614s] -- The CXX compiler identification is GNU 9.4.0
+[0.633s] -- Check for working C compiler: /usr/bin/cc
+[0.995s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.009s] -- Detecting C compiler ABI info
+[1.409s] -- Detecting C compiler ABI info - done
+[1.504s] -- Detecting C compile features
+[1.505s] -- Detecting C compile features - done
+[1.523s] -- Check for working CXX compiler: /usr/bin/c++
+[2.138s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.142s] -- Detecting CXX compiler ABI info
+[2.529s] -- Detecting CXX compiler ABI info - done
+[2.584s] -- Detecting CXX compile features
+[2.585s] -- Detecting CXX compile features - done
+[2.594s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.743s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.746s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.475s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.634s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.932s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.953s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.335s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.479s] -- Found FastRTPS: /opt/ros/foxy/include  
+[4.756s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.156s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[5.163s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.167s] -- Looking for pthread.h
+[6.131s] -- Looking for pthread.h - found
+[6.132s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.053s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[7.053s] -- Looking for pthread_create in pthreads
+[7.943s] -- Looking for pthread_create in pthreads - not found
+[7.944s] -- Looking for pthread_create in pthread
+[8.799s] -- Looking for pthread_create in pthread - found
+[8.806s] -- Found Threads: TRUE  
+[10.061s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[11.776s] -- Checking for module 'eigen3'
+[11.932s] --   Found eigen3, version 3.3.7
+[12.307s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[12.308s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[13.000s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+[13.181s] -- Checking for module 'flann'
+[13.316s] --   Found flann, version 1.9.1
+[13.713s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[14.224s] -- The imported target "vtkParseOGLExt" references the file
+[14.224s]    "/usr/bin/vtkParseOGLExt-7.1"
+[14.224s] but this file does not exist.  Possible reasons include:
+[14.224s] * The file was deleted, renamed, or moved to another location.
+[14.224s] * An install or uninstall procedure did not complete successfully.
+[14.225s] * The installation package was faulty and contained
+[14.225s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[14.225s] but not all the files it references.
+[14.225s] 
+[14.225s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[14.225s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[14.225s] but this file does not exist.  Possible reasons include:
+[14.226s] * The file was deleted, renamed, or moved to another location.
+[14.226s] * An install or uninstall procedure did not complete successfully.
+[14.226s] * The installation package was faulty and contained
+[14.226s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[14.226s] but not all the files it references.
+[14.226s] 
+[14.226s] -- The imported target "vtk" references the file
+[14.227s]    "/usr/bin/vtk"
+[14.227s] but this file does not exist.  Possible reasons include:
+[14.227s] * The file was deleted, renamed, or moved to another location.
+[14.227s] * An install or uninstall procedure did not complete successfully.
+[14.227s] * The installation package was faulty and contained
+[14.227s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[14.248s] but not all the files it references.
+[14.249s] 
+[14.249s] -- The imported target "pvtk" references the file
+[14.249s]    "/usr/bin/pvtk"
+[14.249s] but this file does not exist.  Possible reasons include:
+[14.249s] * The file was deleted, renamed, or moved to another location.
+[14.250s] * An install or uninstall procedure did not complete successfully.
+[14.250s] * The installation package was faulty and contained
+[14.250s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[14.250s] but not all the files it references.
+[14.250s] 
+[14.517s] -- Checking for module 'libusb-1.0'
+[14.546s] --   No package 'libusb-1.0' found
+[14.567s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[14.568s] -- OpenNI disabled because libusb-1.0 not found.
+[14.580s] ** WARNING ** io features related to openni will be disabled
+[14.628s] -- Checking for module 'libusb-1.0'
+[14.661s] --   No package 'libusb-1.0' found
+[14.684s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[14.685s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[14.686s] ** WARNING ** io features related to openni2 will be disabled
+[14.687s] ** WARNING ** io features related to pcap will be disabled
+[14.696s] ** WARNING ** io features related to png will be disabled
+[14.921s] -- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+[14.925s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[14.953s] -- Checking for module 'libusb-1.0'
+[14.954s] --   No package 'libusb-1.0' found
+[14.966s] ** WARNING ** visualization features related to openni will be disabled
+[14.972s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[14.974s] -- OpenNI disabled because libusb-1.0 not found.
+[15.002s] -- Checking for module 'libusb-1.0'
+[15.090s] --   No package 'libusb-1.0' found
+[15.124s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[15.125s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[15.126s] ** WARNING ** visualization features related to openni2 will be disabled
+[15.647s] -- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+[15.664s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[15.731s] -- Checking for module 'libusb-1.0'
+[15.780s] --   No package 'libusb-1.0' found
+[15.788s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[15.790s] -- OpenNI disabled because libusb-1.0 not found.
+[15.796s] ** WARNING ** apps features related to openni will be disabled
+[15.936s] -- looking for PCL_COMMON
+[15.973s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[15.981s] -- looking for PCL_KDTREE
+[16.000s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[16.007s] -- looking for PCL_OCTREE
+[16.045s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[16.046s] -- looking for PCL_SEARCH
+[16.068s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[16.079s] -- looking for PCL_SAMPLE_CONSENSUS
+[16.107s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[16.110s] -- looking for PCL_FILTERS
+[16.156s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[16.176s] -- looking for PCL_2D
+[16.181s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[16.183s] -- looking for PCL_GEOMETRY
+[16.185s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[16.186s] -- looking for PCL_IO
+[16.232s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[16.233s] -- looking for PCL_FEATURES
+[16.259s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[16.260s] -- looking for PCL_ML
+[16.283s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[16.284s] -- looking for PCL_SEGMENTATION
+[16.296s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[16.311s] -- looking for PCL_VISUALIZATION
+[16.316s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[16.318s] -- looking for PCL_SURFACE
+[16.335s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[16.349s] -- looking for PCL_REGISTRATION
+[16.362s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[16.372s] -- looking for PCL_KEYPOINTS
+[16.397s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[16.400s] -- looking for PCL_TRACKING
+[16.424s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[16.432s] -- looking for PCL_RECOGNITION
+[16.440s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[16.458s] -- looking for PCL_STEREO
+[16.479s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[16.485s] -- looking for PCL_APPS
+[16.532s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[16.532s] -- looking for PCL_IN_HAND_SCANNER
+[16.547s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+[16.547s] -- looking for PCL_POINT_CLOUD_EDITOR
+[16.553s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+[16.565s] -- looking for PCL_OUTOFCORE
+[16.574s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[16.579s] -- looking for PCL_PEOPLE
+[16.600s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[16.629s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN  
+[16.817s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[17.640s] -- Added test 'copyright' to check source files copyright and LICENSE
+[19.995s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[20.028s] -- Configured cppcheck include dirs: /home/leesh/ros2_ws/src/my_package/include;$<BUILD_INTERFACE:/home/leesh/ros2_ws/src/my_package/include>
+[20.028s] -- Configured cppcheck exclude dirs and/or files: 
+[21.447s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[21.447s] -- Configured cpplint exclude dirs and/or files: 
+[21.546s] -- Added test 'flake8' to check Python code syntax and style conventions
+[21.694s] -- Added test 'lint_cmake' to check CMake code style
+[21.820s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[23.676s] -- Added test 'uncrustify' to check C / C++ code style
+[23.676s] -- Configured uncrustify additional arguments: 
+[23.828s] -- Added test 'xmllint' to check XML markup files
+[23.881s] -- Configuring done
+[25.476s] -- Generating done
+[25.575s] -- Build files have been written to: /home/leesh/ros2_ws/src/my_package/build/my_package
+[25.865s] Invoked command in '/home/leesh/ros2_ws/src/my_package/build/my_package' returned '0': CMAKE_PREFIX_PATH=/home/leesh/ros2_ws/install/velodyne:/home/leesh/ros2_ws/install/velodyne_pointcloud:/home/leesh/ros2_ws/install/velodyne_driver:/home/leesh/ros2_ws/install/velodyne_msgs:/home/leesh/ros2_ws/install/velodyne_laserscan:/home/leesh/ros2_ws/install/scout_base:/opt/ros/foxy:/home/leesh/ros2_ws/install/ugv_sdk:/home/leesh/ros2_ws/install/scout_msgs:/home/leesh/ros2_ws/install/scout_description:/home/leesh/ros2_ws/install/my_package /usr/bin/cmake /home/leesh/ros2_ws/src/my_package -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/leesh/ros2_ws/src/my_package/install/my_package
+[25.870s] Invoking command in '/home/leesh/ros2_ws/src/my_package/build/my_package': CMAKE_PREFIX_PATH=/home/leesh/ros2_ws/install/velodyne:/home/leesh/ros2_ws/install/velodyne_pointcloud:/home/leesh/ros2_ws/install/velodyne_driver:/home/leesh/ros2_ws/install/velodyne_msgs:/home/leesh/ros2_ws/install/velodyne_laserscan:/home/leesh/ros2_ws/install/scout_base:/opt/ros/foxy:/home/leesh/ros2_ws/install/ugv_sdk:/home/leesh/ros2_ws/install/scout_msgs:/home/leesh/ros2_ws/install/scout_description:/home/leesh/ros2_ws/install/my_package /usr/bin/cmake --build /home/leesh/ros2_ws/src/my_package/build/my_package -- -j8 -l8
+[26.472s] [35m[1mScanning dependencies of target my_node[0m
+[26.774s] [  7%] [32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o[0m
+[53.365s] [ 14%] [32m[1mLinking CXX executable my_node[0m
+[54.570s] [ 14%] Built target my_node
+[54.608s] [35m[1mScanning dependencies of target sub[0m
+[54.781s] [ 21%] [32mBuilding CXX object CMakeFiles/sub.dir/src/sub.cpp.o[0m
+[98.145s] [ 28%] [32m[1mLinking CXX executable sub[0m
+[99.037s] [ 28%] Built target sub
+[99.080s] [35m[1mScanning dependencies of target simple_pub[0m
+[99.360s] [ 35%] [32mBuilding CXX object CMakeFiles/simple_pub.dir/src/simple_pub.cpp.o[0m
+[120.359s] [ 42%] [32m[1mLinking CXX executable simple_pub[0m
+[120.918s] [ 42%] Built target simple_pub
+[120.964s] [35m[1mScanning dependencies of target pcl_test[0m
+[121.297s] [ 50%] [32mBuilding CXX object CMakeFiles/pcl_test.dir/src/pcl_test.cpp.o[0m
+[146.867s] [01m[K/home/leesh/ros2_ws/src/my_package/src/pcl_test.cpp:[m[K In member function ‘[01m[Kvoid Sub::callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr) const[m[K’:
+[146.867s] [01m[K/home/leesh/ros2_ws/src/my_package/src/pcl_test.cpp:103:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kring[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[146.867s]   103 |             int [01;35m[Kring[m[K = pair.first;
+[146.867s]       |                 [01;35m[K^~~~[m[K
+[146.948s] [01m[K/home/leesh/ros2_ws/src/my_package/src/pcl_test.cpp:71:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksize[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[146.948s]    71 |         auto [01;35m[Ksize[m[K = cloud_dst->size();
+[146.948s]       |              [01;35m[K^~~~[m[K
+[146.953s] [01m[K/home/leesh/ros2_ws/src/my_package/src/pcl_test.cpp:[m[K In function ‘[01m[Kpcl::PointCloud<pcl::PointXYZI> cal_roughness(pcl::PointCloud<pcl::PointXYZI>)[m[K’:
+[146.956s] [01m[K/home/leesh/ros2_ws/src/my_package/src/pcl_test.cpp:232:15:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Klong unsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[146.957s]   232 |     if ([01;35m[Kwidth > roughness_count[m[K)
+[146.957s]       |         [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[146.957s] [01m[K/home/leesh/ros2_ws/src/my_package/src/pcl_test.cpp:235:43:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[146.958s]   235 |         for(unsigned int count = 0; [01;35m[Kcount < roughness_count[m[K; ++count)
+[146.960s]       |                                     [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[146.960s] [01m[K/home/leesh/ros2_ws/src/my_package/src/pcl_test.cpp:243:39:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[146.960s]   243 |             for(unsigned int i = 1; [01;35m[Ki <= roughness_count/2[m[K; ++i)
+[146.960s]       |                                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[146.961s] [01m[K/home/leesh/ros2_ws/src/my_package/src/pcl_test.cpp:259:36:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[146.962s]   259 |         for(unsigned int i = 0 ; [01;35m[Ki < roughness_count/2[m[K ; ++i)
+[146.963s]       |                                  [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[146.963s] [01m[K/home/leesh/ros2_ws/src/my_package/src/pcl_test.cpp:293:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[146.963s]   293 |         for(int i=0; [01;35m[Ki<width[m[K; ++i)
+[146.963s]       |                      [01;35m[K~^~~~~~[m[K
+[146.964s] [01m[K/home/leesh/ros2_ws/src/my_package/src/pcl_test.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[146.964s] [01m[K/home/leesh/ros2_ws/src/my_package/src/pcl_test.cpp:316:93:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type ‘[01m[Kpcl::PointCloud<pcl::PointXYZ>&[m[K’ from expression of type ‘[01m[Kpcl::PointCloud<pcl::PointXYZI>[m[K’
+[146.964s]   316 |     pcl::io::loadPCDFile<pcl::PointXYZ>("/home/leesh/Downloads/service_LOAM/CornerMap.pcd", [01;31m[K*edge_map[m[K);
+[146.964s]       |                                                                                             [01;31m[K^~~~~~~~~[m[K
+[146.964s] In file included from [01m[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:72[m[K,
+[146.965s]                  from [01m[K/home/leesh/ros2_ws/src/my_package/src/pcl_test.cpp:4[m[K:
+[146.965s] [01m[K/usr/include/pcl-1.10/pcl/io/pcd_io.h:649:73:[m[K [01;36m[Knote: [m[Kin passing argument 2 of ‘[01m[Kint pcl::io::loadPCDFile(const string&, pcl::PointCloud<PointT>&) [with PointT = pcl::PointXYZ; std::string = std::__cxx11::basic_string<char>][m[K’
+[146.965s]   649 |     loadPCDFile (const std::string &file_name, [01;36m[Kpcl::PointCloud<PointT> &cloud[m[K)
+[146.966s]       |                                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[176.744s] make[2]: *** [CMakeFiles/pcl_test.dir/build.make:63: CMakeFiles/pcl_test.dir/src/pcl_test.cpp.o] Error 1
+[176.745s] make[1]: *** [CMakeFiles/Makefile2:198: CMakeFiles/pcl_test.dir/all] Error 2
+[176.745s] make: *** [Makefile:141: all] Error 2
+[176.750s] Invoked command in '/home/leesh/ros2_ws/src/my_package/build/my_package' returned '2': CMAKE_PREFIX_PATH=/home/leesh/ros2_ws/install/velodyne:/home/leesh/ros2_ws/install/velodyne_pointcloud:/home/leesh/ros2_ws/install/velodyne_driver:/home/leesh/ros2_ws/install/velodyne_msgs:/home/leesh/ros2_ws/install/velodyne_laserscan:/home/leesh/ros2_ws/install/scout_base:/opt/ros/foxy:/home/leesh/ros2_ws/install/ugv_sdk:/home/leesh/ros2_ws/install/scout_msgs:/home/leesh/ros2_ws/install/scout_description:/home/leesh/ros2_ws/install/my_package /usr/bin/cmake --build /home/leesh/ros2_ws/src/my_package/build/my_package -- -j8 -l8

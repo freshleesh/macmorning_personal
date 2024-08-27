@@ -1,0 +1,6 @@
+Invoking command in '/home/leesh/ros2_ws/src/my_package/build/ugv_sdk': /usr/bin/cmake /home/leesh/ros2_ws/src/ugv_sdk -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/leesh/ros2_ws/src/my_package/install/ugv_sdk
+Invoked command in '/home/leesh/ros2_ws/src/my_package/build/ugv_sdk' returned '0': /usr/bin/cmake /home/leesh/ros2_ws/src/ugv_sdk -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/leesh/ros2_ws/src/my_package/install/ugv_sdk
+Invoking command in '/home/leesh/ros2_ws/src/my_package/build/ugv_sdk': /usr/bin/cmake --build /home/leesh/ros2_ws/src/my_package/build/ugv_sdk -- -j8 -l8
+Invoked command in '/home/leesh/ros2_ws/src/my_package/build/ugv_sdk' returned '0': /usr/bin/cmake --build /home/leesh/ros2_ws/src/my_package/build/ugv_sdk -- -j8 -l8
+Invoking command in '/home/leesh/ros2_ws/src/my_package/build/ugv_sdk': /usr/bin/cmake --install /home/leesh/ros2_ws/src/my_package/build/ugv_sdk
+Invoked command in '/home/leesh/ros2_ws/src/my_package/build/ugv_sdk' returned '0': /usr/bin/cmake --install /home/leesh/ros2_ws/src/my_package/build/ugv_sdk

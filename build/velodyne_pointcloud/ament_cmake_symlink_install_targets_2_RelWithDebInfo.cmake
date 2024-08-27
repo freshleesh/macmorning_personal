@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/leesh/ros2_ws/src/my_package/build/velodyne_pointcloud/velodyne_transform_node" "TARGETS" "velodyne_transform_node" "DESTINATION" "lib/velodyne_pointcloud")

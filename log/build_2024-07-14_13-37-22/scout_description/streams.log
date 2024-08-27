@@ -1,0 +1,55 @@
+[0.173s] Invoking command in '/home/leesh/ros2_ws/src/my_package/build/scout_description': CMAKE_PREFIX_PATH=/home/leesh/ros2_ws/install/velodyne:/home/leesh/ros2_ws/install/velodyne_pointcloud:/home/leesh/ros2_ws/install/velodyne_driver:/home/leesh/ros2_ws/install/velodyne_msgs:/home/leesh/ros2_ws/install/velodyne_laserscan:/home/leesh/ros2_ws/install/scout_base:/opt/ros/foxy:/home/leesh/ros2_ws/install/ugv_sdk:/home/leesh/ros2_ws/install/scout_msgs:/home/leesh/ros2_ws/install/scout_description:/home/leesh/ros2_ws/install/my_package /usr/bin/cmake /home/leesh/ros2_ws/src/scout_ros2/scout_description -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/leesh/ros2_ws/src/my_package/install/scout_description
+[0.403s] -- The C compiler identification is GNU 9.4.0
+[0.611s] -- The CXX compiler identification is GNU 9.4.0
+[0.647s] -- Check for working C compiler: /usr/bin/cc
+[1.081s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.081s] -- Detecting C compiler ABI info
+[1.564s] -- Detecting C compiler ABI info - done
+[1.614s] -- Detecting C compile features
+[1.616s] -- Detecting C compile features - done
+[1.641s] -- Check for working CXX compiler: /usr/bin/c++
+[2.118s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.122s] -- Detecting CXX compiler ABI info
+[2.466s] -- Detecting CXX compiler ABI info - done
+[2.536s] -- Detecting CXX compile features
+[2.538s] -- Detecting CXX compile features - done
+[2.549s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.648s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.650s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.438s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.887s] -- Configuring done
+[3.900s] -- Generating done
+[3.900s] -- Build files have been written to: /home/leesh/ros2_ws/src/my_package/build/scout_description
+[3.913s] Invoked command in '/home/leesh/ros2_ws/src/my_package/build/scout_description' returned '0': CMAKE_PREFIX_PATH=/home/leesh/ros2_ws/install/velodyne:/home/leesh/ros2_ws/install/velodyne_pointcloud:/home/leesh/ros2_ws/install/velodyne_driver:/home/leesh/ros2_ws/install/velodyne_msgs:/home/leesh/ros2_ws/install/velodyne_laserscan:/home/leesh/ros2_ws/install/scout_base:/opt/ros/foxy:/home/leesh/ros2_ws/install/ugv_sdk:/home/leesh/ros2_ws/install/scout_msgs:/home/leesh/ros2_ws/install/scout_description:/home/leesh/ros2_ws/install/my_package /usr/bin/cmake /home/leesh/ros2_ws/src/scout_ros2/scout_description -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/leesh/ros2_ws/src/my_package/install/scout_description
+[3.914s] Invoking command in '/home/leesh/ros2_ws/src/my_package/build/scout_description': CMAKE_PREFIX_PATH=/home/leesh/ros2_ws/install/velodyne:/home/leesh/ros2_ws/install/velodyne_pointcloud:/home/leesh/ros2_ws/install/velodyne_driver:/home/leesh/ros2_ws/install/velodyne_msgs:/home/leesh/ros2_ws/install/velodyne_laserscan:/home/leesh/ros2_ws/install/scout_base:/opt/ros/foxy:/home/leesh/ros2_ws/install/ugv_sdk:/home/leesh/ros2_ws/install/scout_msgs:/home/leesh/ros2_ws/install/scout_description:/home/leesh/ros2_ws/install/my_package /usr/bin/cmake --build /home/leesh/ros2_ws/src/my_package/build/scout_description -- -j8 -l8
+[4.084s] Invoked command in '/home/leesh/ros2_ws/src/my_package/build/scout_description' returned '0': CMAKE_PREFIX_PATH=/home/leesh/ros2_ws/install/velodyne:/home/leesh/ros2_ws/install/velodyne_pointcloud:/home/leesh/ros2_ws/install/velodyne_driver:/home/leesh/ros2_ws/install/velodyne_msgs:/home/leesh/ros2_ws/install/velodyne_laserscan:/home/leesh/ros2_ws/install/scout_base:/opt/ros/foxy:/home/leesh/ros2_ws/install/ugv_sdk:/home/leesh/ros2_ws/install/scout_msgs:/home/leesh/ros2_ws/install/scout_description:/home/leesh/ros2_ws/install/my_package /usr/bin/cmake --build /home/leesh/ros2_ws/src/my_package/build/scout_description -- -j8 -l8
+[4.281s] Invoking command in '/home/leesh/ros2_ws/src/my_package/build/scout_description': CMAKE_PREFIX_PATH=/home/leesh/ros2_ws/install/velodyne:/home/leesh/ros2_ws/install/velodyne_pointcloud:/home/leesh/ros2_ws/install/velodyne_driver:/home/leesh/ros2_ws/install/velodyne_msgs:/home/leesh/ros2_ws/install/velodyne_laserscan:/home/leesh/ros2_ws/install/scout_base:/opt/ros/foxy:/home/leesh/ros2_ws/install/ugv_sdk:/home/leesh/ros2_ws/install/scout_msgs:/home/leesh/ros2_ws/install/scout_description:/home/leesh/ros2_ws/install/my_package /usr/bin/cmake --install /home/leesh/ros2_ws/src/my_package/build/scout_description
+[4.330s] -- Install configuration: "RelWithDebInfo"
+[4.335s] -- Execute custom install script
+[4.340s] -- Symlinking: /home/leesh/ros2_ws/src/my_package/install/scout_description/share/scout_description//launch/scout_base_description.launch.py
+[4.367s] -- Symlinking: /home/leesh/ros2_ws/src/my_package/install/scout_description/share/scout_description//urdf/generate_urdf.sh
+[4.419s] -- Symlinking: /home/leesh/ros2_ws/src/my_package/install/scout_description/share/scout_description//urdf/scout_v2.urdf
+[4.445s] -- Symlinking: /home/leesh/ros2_ws/src/my_package/install/scout_description/share/scout_description//urdf/scout_v2.xacro
+[4.480s] -- Symlinking: /home/leesh/ros2_ws/src/my_package/install/scout_description/share/scout_description//urdf/scout_wheel_type1.xacro
+[4.530s] -- Symlinking: /home/leesh/ros2_ws/src/my_package/install/scout_description/share/scout_description//urdf/scout_wheel_type2.xacro
+[4.571s] -- Symlinking: /home/leesh/ros2_ws/src/my_package/install/scout_description/share/scout_description//meshes/base_link.dae
+[4.599s] -- Symlinking: /home/leesh/ros2_ws/src/my_package/install/scout_description/share/scout_description//meshes/base_link_full.dae
+[4.629s] -- Symlinking: /home/leesh/ros2_ws/src/my_package/install/scout_description/share/scout_description//meshes/hokuyo.dae
+[4.659s] -- Symlinking: /home/leesh/ros2_ws/src/my_package/install/scout_description/share/scout_description//meshes/wheel_type1.dae
+[4.696s] -- Symlinking: /home/leesh/ros2_ws/src/my_package/install/scout_description/share/scout_description//meshes/wheel_type2.dae
+[4.725s] -- Symlinking: /home/leesh/ros2_ws/src/my_package/install/scout_description/share/ament_index/resource_index/package_run_dependencies/scout_description
+[4.758s] -- Symlinking: /home/leesh/ros2_ws/src/my_package/install/scout_description/share/ament_index/resource_index/parent_prefix_path/scout_description
+[4.806s] -- Symlinking: /home/leesh/ros2_ws/src/my_package/install/scout_description/share/scout_description/environment/ament_prefix_path.sh
+[4.850s] -- Symlinking: /home/leesh/ros2_ws/src/my_package/install/scout_description/share/scout_description/environment/ament_prefix_path.dsv
+[4.953s] -- Symlinking: /home/leesh/ros2_ws/src/my_package/install/scout_description/share/scout_description/environment/path.sh
+[5.036s] -- Symlinking: /home/leesh/ros2_ws/src/my_package/install/scout_description/share/scout_description/environment/path.dsv
+[5.130s] -- Symlinking: /home/leesh/ros2_ws/src/my_package/install/scout_description/share/scout_description/local_setup.bash
+[5.265s] -- Symlinking: /home/leesh/ros2_ws/src/my_package/install/scout_description/share/scout_description/local_setup.sh
+[5.427s] -- Symlinking: /home/leesh/ros2_ws/src/my_package/install/scout_description/share/scout_description/local_setup.zsh
+[5.555s] -- Symlinking: /home/leesh/ros2_ws/src/my_package/install/scout_description/share/scout_description/local_setup.dsv
+[5.706s] -- Symlinking: /home/leesh/ros2_ws/src/my_package/install/scout_description/share/scout_description/package.dsv
+[5.837s] -- Symlinking: /home/leesh/ros2_ws/src/my_package/install/scout_description/share/ament_index/resource_index/packages/scout_description
+[5.946s] -- Symlinking: /home/leesh/ros2_ws/src/my_package/install/scout_description/share/scout_description/cmake/scout_descriptionConfig.cmake
+[6.086s] -- Symlinking: /home/leesh/ros2_ws/src/my_package/install/scout_description/share/scout_description/cmake/scout_descriptionConfig-version.cmake
+[6.116s] -- Symlinking: /home/leesh/ros2_ws/src/my_package/install/scout_description/share/scout_description/package.xml
+[6.158s] Invoked command in '/home/leesh/ros2_ws/src/my_package/build/scout_description' returned '0': CMAKE_PREFIX_PATH=/home/leesh/ros2_ws/install/velodyne:/home/leesh/ros2_ws/install/velodyne_pointcloud:/home/leesh/ros2_ws/install/velodyne_driver:/home/leesh/ros2_ws/install/velodyne_msgs:/home/leesh/ros2_ws/install/velodyne_laserscan:/home/leesh/ros2_ws/install/scout_base:/opt/ros/foxy:/home/leesh/ros2_ws/install/ugv_sdk:/home/leesh/ros2_ws/install/scout_msgs:/home/leesh/ros2_ws/install/scout_description:/home/leesh/ros2_ws/install/my_package /usr/bin/cmake --install /home/leesh/ros2_ws/src/my_package/build/scout_description

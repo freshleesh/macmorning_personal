@@ -1,0 +1,138 @@
+[0.141s] Invoking command in '/home/leesh/ros2_ws/src/my_package/build/ugv_sdk': /usr/bin/cmake /home/leesh/ros2_ws/src/ugv_sdk -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/leesh/ros2_ws/src/my_package/install/ugv_sdk
+[0.433s] -- The C compiler identification is GNU 9.4.0
+[0.656s] -- The CXX compiler identification is GNU 9.4.0
+[0.675s] -- Check for working C compiler: /usr/bin/cc
+[1.044s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.047s] -- Detecting C compiler ABI info
+[1.459s] -- Detecting C compiler ABI info - done
+[1.538s] -- Detecting C compile features
+[1.539s] -- Detecting C compile features - done
+[1.551s] -- Check for working CXX compiler: /usr/bin/c++
+[2.106s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.107s] -- Detecting CXX compiler ABI info
+[2.467s] -- Detecting CXX compiler ABI info - done
+[2.531s] -- Detecting CXX compile features
+[2.533s] -- Detecting CXX compile features - done
+[2.538s] -- Build package with cmake
+[2.538s] -- Tests will not be built
+[2.555s] -- Looking for pthread.h
+[3.014s] -- Looking for pthread.h - found
+[3.015s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.485s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.486s] -- Looking for pthread_create in pthreads
+[3.862s] -- Looking for pthread_create in pthreads - not found
+[3.863s] -- Looking for pthread_create in pthread
+[4.203s] -- Looking for pthread_create in pthread - found
+[4.210s] -- Found Threads: TRUE  
+[4.234s] -- Project will be installed to /home/leesh/ros2_ws/src/my_package/install/ugv_sdk with 'make install'
+[4.239s] --  - To install LIB components to /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/lib
+[4.239s] --  - To install BIN components to /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/bin
+[4.239s] --  - To install INCLUDE components to /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/include
+[4.239s] --  - To install CMAKE components to /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/share/cmake/ugv_sdk
+[4.305s] -- Configuring done
+[4.435s] -- Generating done
+[4.441s] -- Build files have been written to: /home/leesh/ros2_ws/src/my_package/build/ugv_sdk
+[4.441s] CMake Warning:
+[4.441s]   Manually-specified variables were not used by the project:
+[4.442s] 
+[4.442s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[4.442s]     CATKIN_SYMLINK_INSTALL
+[4.442s] 
+[4.443s] 
+[4.482s] Invoked command in '/home/leesh/ros2_ws/src/my_package/build/ugv_sdk' returned '0': /usr/bin/cmake /home/leesh/ros2_ws/src/ugv_sdk -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/leesh/ros2_ws/src/my_package/install/ugv_sdk
+[4.485s] Invoking command in '/home/leesh/ros2_ws/src/my_package/build/ugv_sdk': /usr/bin/cmake --build /home/leesh/ros2_ws/src/my_package/build/ugv_sdk -- -j8 -l8
+[4.751s] [35m[1mScanning dependencies of target ugv_sdk[0m
+[4.869s] [  3%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/async_port/async_serial.cpp.o[0m
+[4.890s] [  7%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/scout_robot.cpp.o[0m
+[4.896s] [ 14%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/utilities/protocol_detector.cpp.o[0m
+[4.915s] [ 14%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/async_port/async_can.cpp.o[0m
+[4.929s] [ 17%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/hunter_robot.cpp.o[0m
+[4.989s] [ 21%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/bunker_robot.cpp.o[0m
+[5.002s] [ 25%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/ranger_robot.cpp.o[0m
+[5.070s] [ 28%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/titan_robot.cpp.o[0m
+[19.365s] [ 32%] [32mBuilding C object CMakeFiles/ugv_sdk.dir/src/protocol_v2/agilex_msg_parser_v2.c.o[0m
+[35.786s] [ 35%] [32mBuilding C object CMakeFiles/ugv_sdk.dir/src/protocol_v1/agilex_msg_parser_v1.c.o[0m
+[36.005s] [ 39%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/protocol_v2/protocol_v2_parser.cpp.o[0m
+[36.173s] [ 42%] [32m[1mLinking CXX static library lib/libugv_sdk.a[0m
+[36.558s] [ 42%] Built target ugv_sdk
+[36.586s] [35m[1mScanning dependencies of target demo_scout_mini_omni_robot[0m
+[36.632s] [ 46%] [32mBuilding CXX object sample/scout_demo/CMakeFiles/demo_scout_mini_omni_robot.dir/scout_mini_omni_demo.cpp.o[0m
+[44.880s] [ 50%] [32m[1mLinking CXX executable ../../bin/demo_scout_mini_omni_robot[0m
+[45.419s] [ 50%] Built target demo_scout_mini_omni_robot
+[45.453s] [35m[1mScanning dependencies of target demo_protocol_detector[0m
+[45.503s] [ 53%] [32mBuilding CXX object sample/utils_demo/CMakeFiles/demo_protocol_detector.dir/demo_protocol_detector.cpp.o[0m
+[52.779s] [ 57%] [32m[1mLinking CXX executable ../../bin/demo_protocol_detector[0m
+[53.435s] [ 57%] Built target demo_protocol_detector
+[53.489s] [35m[1mScanning dependencies of target demo_robot_version[0m
+[53.582s] [ 60%] [32mBuilding CXX object sample/utils_demo/CMakeFiles/demo_robot_version.dir/demo_robot_version.cpp.o[0m
+[61.382s] [ 64%] [32m[1mLinking CXX executable ../../bin/demo_robot_version[0m
+[61.914s] [ 64%] Built target demo_robot_version
+[61.964s] [35m[1mScanning dependencies of target demo_hunter_robot[0m
+[62.051s] [ 67%] [32mBuilding CXX object sample/hunter_demo/CMakeFiles/demo_hunter_robot.dir/hunter_robot_demo.cpp.o[0m
+[70.901s] [ 71%] [32m[1mLinking CXX executable ../../bin/demo_hunter_robot[0m
+[71.658s] [ 71%] Built target demo_hunter_robot
+[71.703s] [35m[1mScanning dependencies of target demo_bunker_robot[0m
+[71.781s] [ 75%] [32mBuilding CXX object sample/bunker_demo/CMakeFiles/demo_bunker_robot.dir/bunker_robot_demo.cpp.o[0m
+[74.432s] [ 78%] [32m[1mLinking CXX executable ../../bin/demo_bunker_robot[0m
+[74.928s] [ 78%] Built target demo_bunker_robot
+[74.985s] [35m[1mScanning dependencies of target demo_ranger_robot[0m
+[75.072s] [ 82%] [32mBuilding CXX object sample/ranger_demo/CMakeFiles/demo_ranger_robot.dir/ranger_robot_demo.cpp.o[0m
+[84.917s] [ 85%] [32m[1mLinking CXX executable ../../bin/demo_ranger_robot[0m
+[85.549s] [ 85%] Built target demo_ranger_robot
+[85.604s] [35m[1mScanning dependencies of target demo_tracer_robot[0m
+[85.678s] [ 89%] [32mBuilding CXX object sample/tracer_demo/CMakeFiles/demo_tracer_robot.dir/tracer_robot_demo.cpp.o[0m
+[97.063s] [ 92%] [32m[1mLinking CXX executable ../../bin/demo_tracer_robot[0m
+[97.556s] [ 92%] Built target demo_tracer_robot
+[97.598s] [35m[1mScanning dependencies of target demo_scout_robot[0m
+[97.646s] [ 96%] [32mBuilding CXX object sample/scout_demo/CMakeFiles/demo_scout_robot.dir/scout_robot_demo.cpp.o[0m
+[105.818s] [100%] [32m[1mLinking CXX executable ../../bin/demo_scout_robot[0m
+[106.355s] [100%] Built target demo_scout_robot
+[106.442s] Invoked command in '/home/leesh/ros2_ws/src/my_package/build/ugv_sdk' returned '0': /usr/bin/cmake --build /home/leesh/ros2_ws/src/my_package/build/ugv_sdk -- -j8 -l8
+[106.823s] Invoking command in '/home/leesh/ros2_ws/src/my_package/build/ugv_sdk': /usr/bin/cmake --install /home/leesh/ros2_ws/src/my_package/build/ugv_sdk
+[106.852s] -- Install configuration: "RelWithDebInfo"
+[106.855s] -- Installing: /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/lib/libugv_sdk.a
+[106.898s] -- Installing: /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/include/ugv_sdk
+[106.899s] -- Installing: /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/include/ugv_sdk/details
+[106.899s] -- Installing: /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/include/ugv_sdk/details/protocol_v1
+[106.899s] -- Installing: /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/agilex_msg_parser_v1.h
+[106.900s] -- Installing: /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/robot_limits.hpp
+[106.900s] -- Installing: /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/protocol_v1_parser.hpp
+[106.900s] -- Installing: /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/include/ugv_sdk/details/async_port
+[106.900s] -- Installing: /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/include/ugv_sdk/details/async_port/ring_buffer.hpp
+[106.901s] -- Installing: /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/include/ugv_sdk/details/async_port/async_serial.hpp
+[106.901s] -- Installing: /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp
+[106.901s] -- Installing: /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/include/ugv_sdk/details/robot_base
+[106.909s] -- Installing: /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/include/ugv_sdk/details/robot_base/tracer_base.hpp
+[106.910s] -- Installing: /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/include/ugv_sdk/details/robot_base/ranger_base.hpp
+[106.912s] -- Installing: /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/include/ugv_sdk/details/robot_base/hunter_base.hpp
+[106.912s] -- Installing: /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/include/ugv_sdk/details/robot_base/scout_base.hpp
+[106.913s] -- Installing: /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/include/ugv_sdk/details/robot_base/titan_base.hpp
+[106.913s] -- Installing: /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/include/ugv_sdk/details/robot_base/bunker_base.hpp
+[106.913s] -- Installing: /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/include/ugv_sdk/details/robot_base/agilex_base.hpp
+[106.913s] -- Installing: /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/include/ugv_sdk/details/interface
+[106.913s] -- Installing: /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/include/ugv_sdk/details/interface/hunter_interface.hpp
+[106.914s] -- Installing: /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/include/ugv_sdk/details/interface/tracer_interface.hpp
+[106.914s] -- Installing: /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/include/ugv_sdk/details/interface/ranger_interface.hpp
+[106.914s] -- Installing: /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/include/ugv_sdk/details/interface/robot_common_interface.hpp
+[106.915s] -- Installing: /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/include/ugv_sdk/details/interface/agilex_types.h
+[106.915s] -- Installing: /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/include/ugv_sdk/details/interface/agilex_message.h
+[106.915s] -- Installing: /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/include/ugv_sdk/details/interface/titan_interface.hpp
+[106.915s] -- Installing: /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/include/ugv_sdk/details/interface/bunker_interface.hpp
+[106.916s] -- Installing: /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/include/ugv_sdk/details/interface/scout_interface.hpp
+[106.916s] -- Installing: /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/include/ugv_sdk/details/parser_base.hpp
+[106.916s] -- Installing: /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/include/ugv_sdk/details/protocol_v2
+[106.916s] -- Installing: /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/include/ugv_sdk/details/protocol_v2/protocol_v2_parser.hpp
+[106.916s] -- Installing: /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/include/ugv_sdk/mobile_robot
+[106.917s] -- Installing: /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/include/ugv_sdk/mobile_robot/tracer_robot.hpp
+[106.917s] -- Installing: /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/include/ugv_sdk/mobile_robot/titan_robot.hpp
+[106.917s] -- Installing: /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/include/ugv_sdk/mobile_robot/hunter_robot.hpp
+[106.917s] -- Installing: /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/include/ugv_sdk/mobile_robot/ranger_robot.hpp
+[106.918s] -- Installing: /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/include/ugv_sdk/mobile_robot/scout_robot.hpp
+[106.920s] -- Installing: /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/include/ugv_sdk/mobile_robot/bunker_robot.hpp
+[106.928s] -- Installing: /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/include/ugv_sdk/utilities
+[106.929s] -- Installing: /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/include/ugv_sdk/utilities/protocol_detector.hpp
+[106.929s] -- Installing: /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkTargets.cmake
+[106.929s] -- Installing: /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkTargets-relwithdebinfo.cmake
+[106.930s] -- Installing: /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkConfig.cmake
+[106.930s] -- Installing: /home/leesh/ros2_ws/src/my_package/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkConfigVersion.cmake
+[106.931s] Invoked command in '/home/leesh/ros2_ws/src/my_package/build/ugv_sdk' returned '0': /usr/bin/cmake --install /home/leesh/ros2_ws/src/my_package/build/ugv_sdk

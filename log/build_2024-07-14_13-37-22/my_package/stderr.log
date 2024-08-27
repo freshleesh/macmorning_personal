@@ -1,0 +1,43 @@
+** WARNING ** io features related to openni will be disabled
+** WARNING ** io features related to openni2 will be disabled
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** io features related to libusb-1.0 will be disabled
+** WARNING ** visualization features related to openni will be disabled
+** WARNING ** visualization features related to openni2 will be disabled
+** WARNING ** apps features related to openni will be disabled
+[01m[K/home/leesh/ros2_ws/src/my_package/src/pcl_test.cpp:[m[K In member function ‘[01m[Kvoid Sub::callback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/leesh/ros2_ws/src/my_package/src/pcl_test.cpp:103:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kring[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  103 |             int [01;35m[Kring[m[K = pair.first;
+      |                 [01;35m[K^~~~[m[K
+[01m[K/home/leesh/ros2_ws/src/my_package/src/pcl_test.cpp:71:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksize[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   71 |         auto [01;35m[Ksize[m[K = cloud_dst->size();
+      |              [01;35m[K^~~~[m[K
+[01m[K/home/leesh/ros2_ws/src/my_package/src/pcl_test.cpp:[m[K In function ‘[01m[Kpcl::PointCloud<pcl::PointXYZI> cal_roughness(pcl::PointCloud<pcl::PointXYZI>)[m[K’:
+[01m[K/home/leesh/ros2_ws/src/my_package/src/pcl_test.cpp:232:15:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Klong unsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  232 |     if ([01;35m[Kwidth > roughness_count[m[K)
+      |         [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/leesh/ros2_ws/src/my_package/src/pcl_test.cpp:235:43:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  235 |         for(unsigned int count = 0; [01;35m[Kcount < roughness_count[m[K; ++count)
+      |                                     [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/leesh/ros2_ws/src/my_package/src/pcl_test.cpp:243:39:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  243 |             for(unsigned int i = 1; [01;35m[Ki <= roughness_count/2[m[K; ++i)
+      |                                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/leesh/ros2_ws/src/my_package/src/pcl_test.cpp:259:36:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  259 |         for(unsigned int i = 0 ; [01;35m[Ki < roughness_count/2[m[K ; ++i)
+      |                                  [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/leesh/ros2_ws/src/my_package/src/pcl_test.cpp:293:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  293 |         for(int i=0; [01;35m[Ki<width[m[K; ++i)
+      |                      [01;35m[K~^~~~~~[m[K
+[01m[K/home/leesh/ros2_ws/src/my_package/src/pcl_test.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/leesh/ros2_ws/src/my_package/src/pcl_test.cpp:316:93:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type ‘[01m[Kpcl::PointCloud<pcl::PointXYZ>&[m[K’ from expression of type ‘[01m[Kpcl::PointCloud<pcl::PointXYZI>[m[K’
+  316 |     pcl::io::loadPCDFile<pcl::PointXYZ>("/home/leesh/Downloads/service_LOAM/CornerMap.pcd", [01;31m[K*edge_map[m[K);
+      |                                                                                             [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:72[m[K,
+                 from [01m[K/home/leesh/ros2_ws/src/my_package/src/pcl_test.cpp:4[m[K:
+[01m[K/usr/include/pcl-1.10/pcl/io/pcd_io.h:649:73:[m[K [01;36m[Knote: [m[Kin passing argument 2 of ‘[01m[Kint pcl::io::loadPCDFile(const string&, pcl::PointCloud<PointT>&) [with PointT = pcl::PointXYZ; std::string = std::__cxx11::basic_string<char>][m[K’
+  649 |     loadPCDFile (const std::string &file_name, [01;36m[Kpcl::PointCloud<PointT> &cloud[m[K)
+      |                                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+make[2]: *** [CMakeFiles/pcl_test.dir/build.make:63: CMakeFiles/pcl_test.dir/src/pcl_test.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:198: CMakeFiles/pcl_test.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

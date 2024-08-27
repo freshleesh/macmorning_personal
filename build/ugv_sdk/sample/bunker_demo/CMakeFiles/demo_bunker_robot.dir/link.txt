@@ -1,0 +1,1 @@
+/usr/bin/c++  -O2 -g -DNDEBUG   CMakeFiles/demo_bunker_robot.dir/bunker_robot_demo.cpp.o  -o ../../bin/demo_bunker_robot  ../../lib/libugv_sdk.a -lpthread 

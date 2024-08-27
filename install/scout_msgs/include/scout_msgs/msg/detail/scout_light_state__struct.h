@@ -1,0 +1,1 @@
+/home/leesh/ros2_ws/src/my_package/build/scout_msgs/rosidl_generator_c/scout_msgs/msg/detail/scout_light_state__struct.h
